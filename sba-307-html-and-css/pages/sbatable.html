@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SBA Landing Page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<style>
+    body {
+background-image: url(../images/pexels-nicole-avagliano-2312040.jpg);
+background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+font-family: Assistant, sans-serif
+}
+.cell-1 {
+border-collapse: separate;
+border-spacing: 0 4em;
+background: #ffffff;
+border-bottom: 5px solid transparent;
+background-clip: padding-box;
+cursor: pointer
+}
+thead {
+background: #dddcdc
+}
+.table-elipse {
+cursor: pointer
+}
+
+.row-child {
+background-color: #000;
+color: #fff
+}
+</style>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </button>
+                <ul class="dropdown-menu dropdown-menu-dark">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center row">
+        <div class="col-md-10">
+        <div class="rounded">
+        <div class="table-responsive table-borderless">
+        <table class="table">
+        <thead>
+        <tr>
+        <th class="text-center">Birth Month</th>
+        <th>Sun Sign</th>
+        <th>Color</th>
+        <th>Planet</th>
+        </tr>
+        </thead>
+        <tbody class="table-body">
+        <tr class="cell-1" data-toggle="collapse" data-target="#demo">
+        <td class="text-center">1</td>
+        <td>Capricorn</td>
+        <td>Brown and Grey</td>
+        <td>Saturn</td>
+        </tr>
+        <tr class="cell-1" data-toggle="collapse" data-target="#demo-2">
+        <td class="text-center">2</td>
+        <td>Aquarius</td>
+        <td>Blue</td>
+        <td>Saturn</td>
+        </tr>
+        <tr class="cell-1" data-toggle="collapse" data-target="#demo-3">
+        <td class="text-center">3</td>
+        <td>Pisces</td>
+        <td>Light Green</td>
+        <td>Jupiter</td>
+        </tr>
+        <tr class="cell-1" data-toggle="collapse" data-target="#demo-4">
+        <td class="text-center">4</td>
+        <td>Aries</td>
+        <td>Red</td>
+        <td>Mars</td>
+        </tr>
+        </tbody>
+        </table>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    
+</body>
+</html>

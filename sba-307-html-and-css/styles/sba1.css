@@ -1,0 +1,81 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+#galaxy{
+    background-image: url(../images/pexels-nicole-avagliano-2312040.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+
+}
+
+#galaxy h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color:aliceblue;
+    line-height: 1.2;
+}
+
+#galaxy p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: aliceblue;
+}
+
+#galaxy .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(212, 137, 66);
+    border: rgb(212, 137, 66) 2px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#galaxy .button:hover{
+    background-color: rgb(143, 92, 122);
+    color: white;
+}
+
+#section-a{
+    padding: 20px;
+    background-color: rgb(212, 137, 66);
+    color: white;
+    text-align: center;
+}
+
+#section-b{
+    padding: 20px;
+    background: rgb(143, 92, 122);
+    text-align: center;
+}
+
+#section-c{
+    display: flex;
+}
+#section-c div{
+    padding: 20px;
+}
+
+#section-c .box1, #section-c .box3{
+    background:  rgb(212, 137, 66);
+    color: white;
+}
+
+#section-c .box2{
+    background: rgb(143, 92, 122)
+}
+
